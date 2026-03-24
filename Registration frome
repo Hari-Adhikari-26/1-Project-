@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <table>
+          
+          <div class="first">
+            <h2>Registration Here  </h2>
+            <label>User name or Mobile number
+                <br>
+                 <input type="text" name="User name or Mobile number" placeholder=" User name or Mobile number" ></label>
+            <br>
+            <br>
+            <label>Password 
+                <br>
+                <input type="password" name="password"placeholder="password"></label>
+            <br>
+            <br>
+            <label>mobile No
+                <br>
+                 <input type="number" name="mobile" placeholder="Mobile number "></label>
+            <br>
+            <br>
+            <label>
+                <input type="gmail"name="gmail"placeholder="Enter a Valid gmail  ID">
+            </label>
+            <br><br>
+            <lable>
+                <br>
+                DOB :- <input type="date" name="Date of birth"></lable>
+            <br>
+            <br>
+            <labe>gender <input type="radio" name="gender" ></labe>male
+              <input type="radio" name="gender" ></labe>female
+               <input type="radio" name="gender" ></labe>othe
+               <br><br>
+                <button>Registration</button>
+                </div>
+           
+
+        </table>
+        
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/web.jpg);
+    background-position:400px 0px;
+    color: white;
+    background-size: full ;
+}
+button {
+    color: wheat;
+    font-family: britannic bold;
+    background-color: hotpink;
+
+
+}
+.first{
+    width: 400px;
+    margin:100px auto 0px auto;
+    background-color: black;
+    border-radius: 10px;
+}
+    h2{
+        padding: 20px;
+        color: white;
+        font-family: Arial bold ;
+        text-align: center;
+    }
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+input#first {
+   width: 500px;
+}
+form{
+    margin: 40px;
+}
+
+
+
