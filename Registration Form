@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <table>
+          
+          <div class="first">
+            <h2>Registration Here  </h2>
+            <label>User name or Mobile number
+                <br>
+                 <input type="text" name="User name or Mobile number" placeholder=" User name or Mobile number" ></label>
+            <br>
+            <br>
+            <label>Password 
+                <br>
+                <input type="Password" name="password"placeholder="password"></label>
+            <br>
+            <br>
+            <label>mobile No
+                <br>
+                 <input type="number" name="mobile" placeholder="Mobile number "></label>
+            <br>
+            <br>
+            <label> Gmail
+                <input type="gmail"name="gmail"placeholder="Enter a Valid gmail  ID">
+            </label>
+            <br><br>
+            <lable>
+                <br>
+            <label> DOB :- 
+                 <input type="date" name="Date of birth"></lable>
+            <br>
+            <br>
+            
+            <labe>Gender 
+                <div class="class">
+                <input type="radio" name="gender" ></labe>Male
+              <input type="radio" name="gender" ></labe>Female
+               <input type="radio" name="gender" ></labe>Other
+               <br><br>
+               </div>
+                <button>Registration</button>
+
+                </div>
+           
+
+        </table>
+        
+    </form>
+</body>
+</html>
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("web.jpg");
+    background-position: 400px 0px;
+    background-size: cover;
+    color: black;
+}
+
+button {
+    color: wheat;
+    font-family: "Britannic Bold", sans-serif;
+    background-color: hotpink;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: horizontal vertical blur spread color;
+
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgba(235, 105, 255, 0.329);
+}
+
+.first{
+    width: 400px;
+    margin: 100px auto;
+    background-color: #f4b6c2;
+    border-radius: 10px;
+}
+
+h2{
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 15px;
+}
+
+input#first {
+    width: 300px;
+    height: 40px;
+}
+
+form{
+    margin: 40px;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* space between items */
+}
+
+input:hover {
+    border: 5px solid hotpink;
+    
+}
+
+
+
+
+
+
