@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="om.css"> 
+</head>
+<body>
+    <form>
+        <table>
+            <div class="login">
+                <div class="lo">
+                    <p>Login Page </p>
+                </div>
+                <label>Enter Your User name/Mobile No.</label>
+                <br><br>
+                <input type="text" name="User" placeholder="Use name or Mobile number">
+                <br> <br>
+                <label> Enter Your  Password.
+                    <br><br>
+                    <input type="password" name="password" placeholder="Enter your Password">
+                </label>
+                <br> <br>
+                <button>Login </button>
+                <div class="dont">
+                    <p>Don't have any Account --<a href="/index.html">Registration Form</a></p>
+                </div>
+            </div>
+        </table>
+    </form>
+    
+</body>
+</html>
+
+
+
+*{
+    margin:0;
+    padding:0;
+    background-image:url(/pag.jpg)
+    
+}
+
+.login{
+    margin: 100px;
+    padding: 70px;
+    box-shadow: 10px 5px  pink;
+    width: 500px;
+    padding: 100px;
+    margin: 300px;
+   
+    
+}
+
+.lo{
+    font-size: large;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button:hover{
+     transform: scale(1.1);
+    background-color:palevioletred;
+    box-shadow: 10px 10px skyblue;
+    
+}
+
+input:hover{
+    border: 5px red;
+}
+
+.dont{
+    margin: 10px;
+    text-align: center;
+}
